@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.ListIterator;
 
 public class CarApp {
 public static void main(String[] args) {
@@ -21,5 +22,21 @@ public static void main(String[] args) {
     ArrayList<Vehicle> cars= new ArrayList<>();//arraylist accepts the superclass or truck and chevy
     cars.add(ram);
     cars.add(chevy);
+
+    // for(int i=0; i<cars.size(); i++){
+    //     System.out.println(cars.get(i));
+    // }
+
+    // for(Vehicle car:cars ){
+    //     System.out.println(car);
+    // }
+
+
+    // ListIterator<Vehicle> iterate= cars.ListIterator();
+    // while(iterate.hasNext()){
+    //     System.out.println(iterate.next());
+    // }
+
+    
 }
 }
