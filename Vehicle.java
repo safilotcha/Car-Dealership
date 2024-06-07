@@ -66,7 +66,7 @@ public void setFuelType(FuelType fuelType) {
 
 @Override//for the print out
 public String toString() {
-    return this.make + " " + this.model;// format
+    return  this.year + " "+ this.make + " " + this.model + " " + this.color +" " +this.numberOfSeats;// format
 }
 
 
