@@ -62,13 +62,13 @@ public FuelType getFuelType() {
 public void setFuelType(FuelType fuelType) {
     this.fuelType = fuelType;
 }
-
+  
 
 @Override//for the print out
 public String toString() {
     return  this.year + " "+ this.make + " " + this.model + " " + this.color +" " +this.numberOfSeats;// format
 }
-  
+
 
 
 }
