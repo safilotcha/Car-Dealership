@@ -27,9 +27,9 @@ public static void main(String[] args) {
     //     System.out.println(cars.get(i));
     // }
 
-    // for(Vehicle car:cars ){
-    //     System.out.println(car);
-    // }
+    for(Vehicle car:cars ){
+        System.out.println(car);
+    }
 
 
     // ListIterator<Vehicle> iterate= cars.ListIterator();

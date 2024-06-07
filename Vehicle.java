@@ -64,6 +64,10 @@ public void setFuelType(FuelType fuelType) {
 }
 
 
+@Override//for the print out
+public String toString() {
+    return this.make + " " + this.model;// format
+}
 
 
 
